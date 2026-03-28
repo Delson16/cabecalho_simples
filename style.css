@@ -91,16 +91,13 @@ ul a:hover::after {
     transition: ease .2s;
     rotate: 45deg;
 }
-
 .active::before {
     rotate: -90deg;
     top: 0px !important;
 }
-
 .active::after {
     content: none !important;
 }
-
 .active-side-bar {
     right: 0px !important;
     transition: ease .4s;
