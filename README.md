@@ -66,13 +66,13 @@ O layout adapta-se a diferentes tamanhos de tela:
 
 ### Versão Desktop
 
-![Desktop Preview](img/desktop.png)
+<img src="img/desktop.png" width="500">
 
 ---
 
 ### Versão Mobile
 
-![Mobile Preview](img/mobile.png)
+<img src="img/mobile.png" width="125">
 
 ---
 
