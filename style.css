@@ -36,10 +36,34 @@ ul a::after{
     width: 0%;
     height: 3px;
     bottom: -2px;
-    left: 1px;
+    left: 0px;
     border-radius: 20px;
 }
 ul a:hover::after{
     width: 100%;
     transition: ease .4s;
+}
+#burguer-button{
+    position: relative;
+    display: none;
+}
+#burguer-button, #burguer-button::after, #burguer-button::before{
+    width: 40px;
+    height: 5px;
+    background-color: var(--font-color);
+    border: none;
+    border-radius: 20px;
+}
+
+#burguer-button::after, #burguer-button::before{
+    content: " ";
+    position: absolute;
+}
+#burguer-button::after{
+    left: 0px;
+    top: 10px;
+}
+#burguer-button::before{
+    left: 0px;
+    top: -10px;
 }
